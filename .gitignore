@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 TogglMigrator/Properties/launchSettings.json
+run.ps1
