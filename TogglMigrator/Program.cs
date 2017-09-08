@@ -16,7 +16,7 @@ namespace TogglMigrator
         static void Main(string[] args)
         {
             var begin = DateTime.Now.AddDays(-10);
-            var end = DateTime.Now.AddDays(-2);
+            var end = DateTime.Now.AddDays(-1);
             var togglProjectName = Environment.GetEnvironmentVariable("TOGGL_PROJECT_NAME");
 
             Console.WriteLine($"Loading account data for project '{togglProjectName}'...");
